@@ -28,7 +28,7 @@ function M.setup(config)
     PmenuSbar = { bg = c.bg_highlight }, PmenuThumb = { bg = c.fg_gutter },
     StatusLine = { fg = c.comment, bg = normal_bg }, StatusLineNC = { fg = c.comment, bg = normal_bg },
     TabLine = { fg = c.comment, bg = c.bg_dark }, TabLineFill = { bg = c.bg },
-    TabLineSel = { fg = c.fg, bg = c.bg_highlight }, WinSeparator = { fg = c.fg_gutter },
+    TabLineSel = { fg = c.fg, bg = c.bg_highlight }, WinSeparator = { fg = c.comment },
     VertSplit = { link = "WinSeparator" }, Directory = { fg = c.blue }, Title = { fg = c.blue, bold = true },
     Question = { fg = c.cyan }, MoreMsg = { fg = c.green }, ModeMsg = { fg = c.yellow, bold = true },
     WarningMsg = { fg = c.orange }, ErrorMsg = { fg = c.red }, Error = { fg = c.red },
