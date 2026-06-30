@@ -26,7 +26,7 @@ function M.setup(config)
     Pmenu = { fg = c.fg, bg = c.bg_dark }, PmenuSel = { fg = c.fg, bg = c.blue7, bold = true },
     PmenuKind = { fg = c.cyan, bg = c.bg_dark }, PmenuExtra = { fg = c.comment, bg = c.bg_dark },
     PmenuSbar = { bg = c.bg_highlight }, PmenuThumb = { bg = c.fg_gutter },
-    StatusLine = { fg = c.fg, bg = c.bg_highlight }, StatusLineNC = { fg = c.comment, bg = c.bg_dark },
+    StatusLine = { fg = c.comment, bg = normal_bg }, StatusLineNC = { fg = c.comment, bg = normal_bg },
     TabLine = { fg = c.comment, bg = c.bg_dark }, TabLineFill = { bg = c.bg },
     TabLineSel = { fg = c.fg, bg = c.bg_highlight }, WinSeparator = { fg = c.fg_gutter },
     VertSplit = { link = "WinSeparator" }, Directory = { fg = c.blue }, Title = { fg = c.blue, bold = true },
