@@ -14,7 +14,7 @@ function M.setup(config)
     FloatBorder = { fg = c.blue0, bg = c.bg_dark },
     FloatTitle = { fg = c.blue, bg = c.bg_dark, bold = true },
     NonText = { fg = c.terminal_black }, EndOfBuffer = { fg = c.bg },
-    Whitespace = { fg = c.fg_gutter }, LineNr = { fg = c.fg_gutter, bg = normal_bg },
+    Whitespace = { fg = c.fg_gutter }, LineNr = { fg = c.comment, bg = normal_bg },
     CursorLineNr = { fg = c.yellow, bg = normal_bg, bold = true },
     CursorLine = { bg = c.bg_highlight }, CursorColumn = { link = "CursorLine" },
     ColorColumn = { bg = c.bg_highlight }, SignColumn = { fg = c.blue, bg = normal_bg },
