@@ -74,7 +74,7 @@ function M.setup(config)
     ["@markup.raw"] = { link = "String" },
 
     GitSignsAdd = { fg = c.green }, GitSignsChange = { fg = c.yellow }, GitSignsDelete = { fg = c.red },
-    TelescopeBorder = { fg = c.blue0 }, TelescopeSelection = { bg = c.bg_highlight, bold = true },
+    TelescopeBorder = { fg = c.white }, TelescopeSelection = { bg = c.bg_highlight, bold = true },
     TelescopeMatching = { fg = c.orange, bold = true }, BlinkCmpLabelMatch = { fg = c.blue, bold = true },
     CmpItemAbbrMatch = { fg = c.blue, bold = true }, CmpItemAbbrMatchFuzzy = { fg = c.cyan, bold = true },
   }

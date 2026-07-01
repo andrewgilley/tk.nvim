@@ -8,6 +8,7 @@ local original = {
   fg_dark = "#a9b1d6",
   fg_gutter = "#3b4261",
   comment = "#565f89",
+  white = "#FFFFFF",
   blue = "#7aa2f7",
   blue0 = "#3d59a1",
   blue1 = "#2ac3de",
